@@ -113,31 +113,19 @@ Fitur **Hot Module Replacement (HMR)** memungkinkan pengembang melihat perubahan
 
   
 
-| Fitur | Deskripsi |
-
-|--------------------|---------------------------------------------------------------------------------------------------------|
-
-| **Routing** | - Sistem `file-based routing`, otomatis membuat rute dari file di folder `pages/`. |
-
-| | - Mendukung layout (tata letak) yang konsisten dan rute bersarang untuk pengaturan halaman. |
-
-| | - Menyediakan loading states (status pemuatan) dan error handling (penanganan kesalahan). |
-
-| **Rendering** | - Mendukung rendering di sisi klien (Client-side) dan server (Server-side) sesuai kebutuhan aplikasi. |
-
-| | - Optimasi dengan rendering statis dan dinamis serta *streaming* di lingkungan Edge dan Node.js. |
-
-| **Data Fetching** | - Pengambilan data langsung di Komponen Server untuk performa yang lebih baik. |
-
-| | - Mendukung `memoization`, caching (penyimpanan data sementara), dan revalidasi data otomatis. |
-
-| **Styling** | - Mendukung CSS Modules, Tailwind CSS, dan CSS-in-JS. |
-
-| | - Memberikan fleksibilitas dalam menggunakan gaya sesuai preferensi tanpa konflik antar komponen. |
-
-| **Optimasi** | - Optimasi gambar dengan `next/image`, optimasi font, dan pemuatan skrip hanya ketika diperlukan. |
-
-| **TypeScript** | - Dukungan penuh untuk TypeScript, dengan pemeriksaan tipe otomatis dan kompilasi yang cepat. |
+|  Fitur  | Deskripsi  |
+|--|--|
+|*Routing*  |Sistem file-based routing, otomatis membuat rute dari file di folder pages/.                      |
+|  |Mendukung layout (tata letak) yang konsisten dan rute bersarang untuk pengaturan halaman |
+|  |Menyediakan loading states (status pemuatan) dan error handling (penanganan kesalahan). |
+| *Rendering* | Mendukung rendering di sisi klien (Client-side) dan server (Server-side) sesuai kebutuhan aplikasi. |
+|  |Optimasi dengan rendering statis dan dinamis serta streaming di lingkungan Edge dan Node.js.  |
+| *Data Fetching* | Pengambilan data langsung di Komponen Server untuk performa yang lebih baik. |
+|  | Mendukung memoization, caching (penyimpanan data sementara), dan revalidasi data otomatis. |
+| *Styling* |Mendukung CSS Modules, Tailwind CSS, dan CSS-in-JS.  |
+|  | Memberikan fleksibilitas dalam menggunakan gaya sesuai preferensi tanpa konflik antar komponen. |
+| *Optimasi* |Optimasi gambar dengan next/image, optimasi font, dan pemuatan skrip hanya ketika diperlukan.  |
+| *TypeScript* |Dukungan penuh untuk TypeScript, dengan pemeriksaan tipe otomatis dan kompilasi yang cepat.  |
 
 ---
 
